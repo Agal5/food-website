@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation bar  */
+
+nav{
+    background: #00000065;
+    width: 100%;
+    overflow: none;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+   
+}
+nav  ul li a{
+    display: block;
+    text-align: center;
+    color: white;
+    padding:14px ;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: rgb(252, 248, 11);
+   
+}
+
+/*image*/
+
+.products{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 5%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-around;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius:200px;
+    
+}
+.i{
+    color:white;
+}
+img:hover{
+    padding: 20px;
+}
+h4{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/*body*/
+
+body{
+    background: #000000b6;
+}
+
+/* footer*/
+
+footer{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.company{
+    text-align: right;
+}
+.Contactus{
+    display:inline-block;
+    text-align: center;
+}
+.Legal{
+    display: inline-block;
+    text-align: justify;
+    text-decoration: none;
+   
+}
+
+/* contact */
+
+p{
+    font-size: 1rem;
+}
+h1{
+    text-align: center;
+}
+h3{
+    background-color: rgba(0, 0, 0, 0.39);
+    color: white;
+    text-align: center;
+}
+.head{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-decoration:underline;
+}
+
+/* Responsive Website*/
+
+@media screen and (max-width:400px) {
+    .container{
+        padding: 25px;
+    }
+    img{
+        height: 300px;
+        width: 300px;
+        border-radius: 100px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .container{
+        padding: 10px;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+    }
+    
+}
